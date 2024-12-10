@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="images/logo/icon.png">
+    <!-- ===== fontawesom ===== -->
+      <link rel="stylesheet" href="Css/all.min.css">
+    <!-- ===== Bootstrap ===== -->
+     <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <!-- ===== Main css ===== -->
+        <link rel="stylesheet" href="Css/stylesheet.css">
+</head>
+<body>
+        <form id="loginForm" class="conatainer text-center">
+            <div class="my-box mt-5">
+                <div class="group">
+                    <h1 class="pb-3 pt-3">Smart Login System</h1>
+                    <input id="loginEmail" type="email" class="form-control w-100 mx-auto mb-3" placeholder="Enter Your Email">
+                    <input id="loginPassword" type="password" class="form-control w-100 mx-auto mb-4" placeholder="Enter Your Password">
+                    <p id="loginMsg" class="alert alert-success d-none">Login successful! Welcome back.</p>
+                    <p id="loginMsg2" class="alert alert-danger d-none">invalid data.</p>
+                    <div class="mb-3"><button type="submit" class="btn btn-outline-primary w-100">Login</button></div>
+                    <p class="text-light">Don’t have an account? <a href="signup.html" target="_self">Sign Up</a></p>
+                </div>
+            </div>
+        </form>
+    
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/signin.js"></script>
+</body>
+</html>

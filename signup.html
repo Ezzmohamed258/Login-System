@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="images/logo/icon.png">
+    <!-- ===== fontawesom ===== -->
+      <link rel="stylesheet" href="Css/all.min.css">
+    <!-- ===== Bootstrap ===== -->
+     <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <!-- ===== Main css ===== -->
+    <link rel="stylesheet" href="Css/stylesheet.css">
+</head>
+<body>
+
+
+    
+        <form id="signupForm" class="conatainer text-center">
+            <div class="my-box mt-5">
+                <div class="group">
+                    <h1 class="pb-3 pt-3">Smart Login System</h1>
+                    <input id="signupName" type="text" oninput="valditionForm(this)" class="form-control w-100 mx-auto mb-3" placeholder="Enter Your Name">
+                    <div class="alert alert-danger py-2 d-none" role="alert">This Name is not valid</div>
+                    <input id="signupEmail" type="email" oninput="valditionForm(this)" class="form-control w-100 mx-auto mb-3" placeholder="Enter Your Email">
+                    <div class="alert alert-danger py-2 d-none" role="alert">This Name is not valid</div>
+                    <input id="signupPassword" type="password" oninput="valditionForm(this)" class="form-control w-100 mx-auto mb-4" placeholder="Enter Your Password">
+                    <div class="alert alert-danger py-2 d-none" role="alert">This Name is not valid</div>
+                    <p id="requiredMsg" class="alert alert-danger d-none">All inputs is required</p>
+                    <p id="alreadyexistsMsg" class="alert alert-danger d-none">This email already exists. Try another.</p>
+                    <p id="successfulMsg" class="alert alert-success d-none">Sign Up successful! You can now log in.</p>
+                    <div class="mb-3"><button type="submit" class="btn btn-outline-primary w-100">Sign Up</button></div>
+                    <p class="text-light">You have an account? <a href="index.html" target="_self">Sign in</a></p>
+                </div>
+            </div>
+        </form>
+    
+    
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
