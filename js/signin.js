@@ -20,7 +20,7 @@ loginForm.addEventListener("submit", (e) => {
   if (currentUser) {
     loginMsg.classList.remove("d-none");
     loginMsg2.classList.add("d-none");
-    window.location.href = "file:///X:/Alex/js%20form%20login/Welcome.html";
+    window.location.href = "./Welcome.html";
   } else {
     loginMsg.classList.add("d-none");
     loginMsg2.classList.remove("d-none");
